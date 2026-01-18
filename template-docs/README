@@ -1,0 +1,273 @@
+------------------------------------------ [delete: after copying master to instance]
+
+   This example instance of this file is: README in the "template-docs" repository.
+
+   Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
+
+------------------------------------------ [edit:none]
+
+   This file believes that this file is:    README  in the repo root with the managed object.
+
+   This file is expected to be unique to the repository as it is metadata about the managed object.
+
+------------------------------------------ [edit:none]
+=====================
+
+ S~S  SimpleSal template documents: README information about working with SimpleSal source files
+
+=====================
+
+ S~S TruSoft Computing LLC (TSC LLC) Repository Philosophy
+
+------------------------------------------
+
+ S~S   SimpleSal explains the managed object concept
+
+    This is the README about the managed objects in this repo.
+    TSC LLC's idea of a managed object excludes anything present in the repo that is metadata.
+
+    The repo database contains what TSC LLC calls the "repo object": that thing the repo controls.
+        The repo database MANAGER applications maintain metadata about the repo object.
+
+    A "managed object" is what TSC LLC calls everything in the repo, EXCEPT files ABOUT the repo.
+        The repo database OWNER maintains metadata about the managed object.
+        The repo database OWNER invents conventions to help separate managed object from METADATA.
+
+    TSC LLC's chosen publishing style:
+        1) the repo contains human metadata text files and the managed object as defined here;
+        2) the conventions followed for separating the metadata is adopted from GITHUB and LINUX;
+        2) the managed object is a single subdirectory self-contained within the repository root.
+
+------------------------------------------
+
+=====================
+
+------------------------------------------
+
+  S~S The Elevator Pitch
+
+------------------------------------------
+
+    This README file is about the template documents, one of which is a template README file.
+
+    This README file is a description of the purpose and content of information IN human metadata.
+
+    Like the Elevator Pitch, the README is the best, and maybe only, chance to sell the software.
+
+------------------------------------------
+
+=====================
+
+------------------------------------------  [delete: after copying master to instance]
+
+ S~S  SimpleSal Ecosystem README general content guide
+
+    When a repository user is looking at a repository for the first time, they see the root of
+    the repository.  In the root are files describing the managed object within the repository,
+    each of those files is an information signal from the publisher of the managed object ABOUT
+    the managed object.  The software publishing culture uses common signals to communicate.
+
+    The signals are "about" the managed object's data so they are called "metadata":
+        1) version control (RELEASE, CHANGELOG);
+        2) licensing (LICENSE, COPYING);
+        3) README.
+
+    README is the window or lens through which the other files make sense.  At some point back
+    in computer history, someone made some notes about it for themselves, and then for others.
+    The consumer of the notes will be new to the content, having forgotten, or been given a copy.
+
+    When the software you publish changes, or is adopted for use by others, other files follow.
+
+------------------------------------------  [delete: after copying master to instance]
+
+ S~S  Making modifications to SimpleSal
+
+  A design goal: no modifications to SimpleSal files are needed to modify the behavior or content.
+
+  Modifying an App and SimpleSal at the same time is complex, and also what SimpleSal is made for.
+
+  Nothing in the repository organization blocks having both checked out at the same time.
+
+  The multi-layer design of the workspace model allows a change that breaks EVERYTHING to be undone.
+
+------------------------------------------
+
+=====================
+
+------------------------------------------   [edit:delete after copying master to instance]
+
+ S~S The Idea of an Elevator Pitch
+
+    The README file is the publisher's one chance to make the elevator pitch.
+
+    Imagine you are at the big convention where your product is first introduced.  You wait at the
+    elevator upstairs and find you are next to the boss of the company that might buy your product.
+
+    The boss has never heard of you, or your company, or your product.
+
+    The boss boards the elevator, you board.
+    The boss picks the convention floor and smiles "same?"; you nod your head and smile back.
+
+    The door shuts.  You have 30-45 seconds... Go!
+
+  ^^^^^^^^^^^^^^^   [edit: go for it]
+
+  S~S The Elevator Pitch
+
+    Signal algorithms cause electronic signal and sensor components to exchange information.
+
+    The SimpleSal Signal Algorithm Laboratory is free source code software. It supports a novice
+    developer's desire to imagine, write and then run signal algorithms in a safe and controlled
+    application environment.  A step above setup() and loop(); a hint of an RTOS; debuggable.
+
+    The parallel in computer history is the programming language BASIC.  It enables an introduction
+    to writing software algorithms that perform a useful task using the resources of a computer.
+
+    The rest is up to you.  Enjoy the convention.
+
+  ^^^^^^^^^^^^^^^   [edit: nice]
+
+    Ding.  Elevator door opens.
+
+------------------------------------------
+
+=====================                        [edit: everything published exists within this idea]
+
+------------------------------------------
+
+ S~S The SimpleSal Ecosystem
+
+    In ancient history, people used to make a footstool with three legs, not four legs.  It is the
+    addition of the fourth leg that makes it important that all legs be of the same length.  Until
+    the fourth leg makes a requirement on the design, the three-legged stool is stable anywhere.
+
+    The SimpleSal three-legged stool is built from:
+
+    1) the published software in the repo:
+        GitHub /simplesal/SimpleSal repository, branch main-SimpleSal
+
+    2) the information within the repo about how to make use of the SimpleSal software:
+        \SimpleSal\ssDocs\Find and Open Documents.html          <web browser viewable>
+
+    3) the information about how to write signal algorithms using software
+        simplesal's substack.com website, most content free without a subscription
+
+------------------------------------------
+
+ S~S Published information outside the repo's human metadata AND repo metadata.
+
+    This text is not-clickable information about free SimpleSal ecosystem of code and information.
+
+    The site includes pretty documents with colorful drawings constructed from circles and arrows.
+
+        Also, videos showing the effect of the annotated software being shown alongside the effect.
+
+    simplesal.substack.com          user "simplesal" on site "substack.com"
+
+------------------------------------------
+
+=====================                       [edit: this specific published thing has this form]
+
+------------------------------------------
+
+ S~S This Repository
+
+------------------------------------------
+
+ S~S  What is the purpose of the software in this repository?
+
+    * Support SimpleSal ecosystem educational goals by providing free software source code.
+    * Provide software of moderate complexity that can be broken, fixed, improved, abandoned.
+    * Demonstrate the tradeoffs of performing software engineering tasks of moderate complexity.
+
+------------------------------------------   [edit: this published thing will look like this]
+
+ S~S  What are the contents of this repository?
+
+   * While accessed through the repo App, the contents being worked on ARE the managed object.
+     NOT "in the managed object" BUT "are the managed object": as a directory, or, a set of files.
+
+   * Once transported within the workspace from the repo through the medium to the instance,
+     the managed object becomes "the specific contents of the managed object being modified".
+
+------------------------------------------
+
+ S~S  What happens in my workspace as a result of interacting with this repository?
+
+  * The instance in the workspace contains a copy of the contents of the managed object.
+
+    * for a non-SimpleSal App:   'the contents are placed into a directory with the name required
+                                 by the developer's build; for Arduino, the ".ino" file name.'
+
+    * for a SimpleSal App:       'the contents...", a file named App.ino.'   Same as non-SimpleSal.
+
+    * for the SimpleSal source:  'the contents..., a directory, goes into the App as .\SimpleSal.'
+
+  * The SimpleSal and TSC LLC philosophy about organizing software in a workspace over Time
+    is related to the principle some call "separation of concerns" in software development:
+
+        any version of a SimpleSal App should work with any version of SimpleSal.
+
+    The SimpleSal App references the version of SimpleSal indicated by the software build.
+        This means the include path used by the software build determines where \SimpleSal lives.
+        The SimpleSal model using the Arduino out-of-the-box build environment is \App\SimpleSal.
+
+    The contents of the App's directory and the contents of SimpleSal are mutually exclusive.
+       The result: App repos have no SimpleSal directory, a SimpleSal repo has no App directory.
+
+------------------------------------------
+
+=====================
+
+------------------------------------------   [edit: provide a view from 10,000 feet and falling]
+
+ S~S   directory tree structure:
+
+  User space for Arduino is a directory "App" containing the "SimpleSal" directory and "App.ino".
+  The Arduino IDE build environment expects a SimpleSal directory to be in each App's directory.
+
+  the "SimpleSal" directory contains all of the software source code needed to use SimpleSal.
+
+  the "ssTEA" subdirectory contains the software implementing Time and Event Agency (TEA).
+
+  the "ssUI" subdirectory contains the menu system that displays Time and Event information.
+
+  the "ssDocs" subdirectory contains documentation, each file is pointed to by source code files.
+
+  the "ssIO" subdirectory is independent of ssTEA and implements the virtualization of hardware.
+
+------------------------------------------
+
+=====================                           [edit: truth is often buried in the notes]
+
+------------------------------------------
+
+ S~S   Project notes and other information that is not easy to place in a category
+
+------------------------------------------
+
+  C-language source code at a "fundamental Kernighan and Ritchie C level"; also called "K and R C".
+  C software is implemented to directly translate to processor-level instructions and capabilities.
+  SimpleSal is also going to be integrated into other languages and Hosts; we must begin at simple.
+
+------------------------------------------
+
+  SimpleSal'S assistance with initial configuration is based in files with the extension ".start".
+  To begin, these files must be copied into the App user space and renamed as ".h" files.
+  The files do not neeed to be changed; the directions for integration into the App expect ".h".
+
+  The expectation is that the normal user will extend basic Mesa abilities and reconfigure ssTEA.
+
+------------------------------------------
+
+  There is ssDocs documentation specific to the architecture and implementation of ssTEA and ssUI,
+  sd a software component co-existing with the App.  For example, allocation of the database used
+  for Event descriptors may be performed by the App or ssTEA; the App is free to take control and
+  replace ssTEA's static allocation algorithm with a dynamic allocation using malloc.  Try it.
+
+------------------------------------------
+
+=====================
+
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
+

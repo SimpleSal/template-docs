@@ -1,0 +1,115 @@
+------------------------------------------ [delete: after copying master to instance]
+
+   This example instance of this file is: RELEASE in the "template-docs" repository.
+
+   Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
+
+------------------------------------------ [edit:none]
+
+   This file believes that this file is:    RELEASE  in the repo root with the managed object.
+
+   This file is expected to be unique to the repository as it is metadata about the managed object.
+
+------------------------------------------ [edit:none]
+
+=====================
+
+TruSoft Computing LLC
+
+ S~S  SimpleSal template documents: README information about SimpleSal documents
+
+=====================
+
+------------------------------------------ [edit:delete after copying master]
+
+    A description of the content or changes included in THIS VERSION
+
+            tagged as a coherent collection of files in a repository of:
+
+        [edit: SimpleSal App software, or, SimpleSal software]
+
+A repository is only a vessel for managing a blob of content that changes over Time, as a blob.
+Version control tasks need a bridge between the software content and the managed object containing it.
+
+    In the software content context, nobody cares about the repository blob.
+    In the repository content context, nobody cares about the software content.
+
+The RELEASE document for each collection of coherent content inside a blob is that bridge.
+
+------------------------------------------
+
+=====================
+
+------------------------------------------
+
+SimpleSal software component RELEASE Note Style Guide [edit:delete after copying master]
+
+------------------------------------------
+
+ Each formal publication of a labeled version of software will describe the changes here.
+ The content here is prepended to the official accumulation of all RELEASE files: CHANGELOG
+
+ As stated above, the content is the bridge between the software content and the repository.
+  repository-based change documentation : correlate repository activities to a labeled version
+  source file-based change documentation : describe for a developer the software changes made
+
+------------------------------------------
+
+ Each repository will have an instance of RELEASE, which willl change with each release.
+
+------------------------------------------
+
+ The sequential numbering system chosen to identify unique versions is "the date of release".
+ For the purposes of human discussion of features and complaints, a human version is used also.
+
+------------------------------------------
+
+=====================
+
+------------------------------------------	[edit: not useful information in CHANGELOG]
+    [edit: modify the example metadata based on the development culture after copying master]
+
+ S~S Changes to a repository have been published by SimpleSal:
+
+ GitHub username            simplesal
+
+   repository               example-repo
+
+     branch                 example-branch
+
+       label on branch      release-251230      (for example)
+
+ Date of Publishment        December 30, 2025
+
+ TSC LLC Version Identifier 251230
+
+ Human version Identifier   v0.9a
+
+------------------------------------------
+
+=====================
+
+ S~S  Release notes version 260105: template-docs repository activity: create the repository
+
+------------------------------------------	[edit: required information in CHANGELOG]
+
+
+
+
+ * [edit: describe the content in a way useful to other participants in the organization]
+
+ * [edit: paste the descriptive information that was entered into the repository Application]
+
+ * [edit: describe this version's relationship to other versions in the repository]
+
+------------------------------------------
+
+=====================
+
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
+
+
+
+
+
+

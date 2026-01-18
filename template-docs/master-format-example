@@ -1,0 +1,155 @@
+
+------------------------------------------ [edit:none]
+
+    This file believes that this file is: "master-format-example" in the "template-docs" repository.
+
+    This file is expected to exist only in the template-docs repo; it is a developer document.
+
+------------------------------------------ [edit:none]
+
+=====================
+
+TruSoft Computing LLC
+
+ S~S Style and Content Guide TSC LLC uses when writing metadata documentation
+
+------------------------------------------
+
+    Basic guidelines:
+
+        Write a statement, using the form:  <who> <what> <when> <where> <how>   let's say "<WWWWH>"
+
+            Each statement topic will be given a value by the reader if a value is not stated.
+
+              Example: TSC LLC publishes SimpleSal content periodically on GitHub.
+                <how> is assumed because without the assumed internet, GitHub might not work.
+
+              Example: modified the interrupt handler initialization to fix Bug #1199
+                <who> is the developer, <when><where><how> matters if not "today with an editor".
+                <what> clearly must uniquely state specific information about a specific task.
+
+        The answer to "Why?" is in the project documentation somewhere.
+
+        Use spaces and indentation to show relationships between a statement and further discussion.
+
+        Use simple graphics to separate sections within a discussion about a statement.
+
+                =====
+                statement or complete thought without sections
+                =====
+                statement or complete thought with sections
+                ---------
+                section about statement
+                ---------
+                section about statement
+                ---------
+                =====
+
+------------------------------------------
+
+  S~S header tags
+
+    Place unique character strings at the top-level description in a statement or section.
+    This allows file system tools to find and display organized metadata in the files.
+
+    Outside the repo, in the developer's workspace, the human metadata content is a text database,
+    searchable using simple applications.  For example, the format suggests topical sections the
+    developer writes might start with a searchable tag; prepend "S~S" in front of all these lines;
+    a file system tool that searches for strings in text files shows all the files and lines.
+
+------------------------------------------
+
+=====================
+
+ S~S Primary purpose of the file master-format-example
+
+------------------------------------------
+
+  SimpleSal documents produced for metadata purposes use this organization and with a very
+  limited notation: Ascii character set; outline markers '=', '-' and '*'; "S~S" header tags.
+
+  The reason that TSC LLC sets a low bar for expectations with respect to source control metadata
+  is that the time and energy needed to create nicely-formatted content is beyond the basic task.
+
+  The example demonstrates that the tools used to view and manipulate both the repo and the
+  human metadata are the narrow funnel through which managed object versions are understood.
+
+  Conformity enforced by the system is simplified down to a level any human or computer can meet.
+  For example, a photographic image of a version number might not be parsable by some consumers.
+
+------------------------------------------
+
+=====================
+
+ S~S Consumers of metadata expect it to be in some form
+
+------------------------------------------
+
+    It is always good to think for a moment about the consumer of your output.  The use of
+    specific words and phrases in <WWWWH> can clarify the meaning of the information you write.
+
+    A human speaker saying "<who> <what> <when> <where> <how>" expects the audience to predict
+    the next word in sequence if the speaker stops at any point.  Humans build an expectation
+    of what the speaker will say, based on what the speaker has said in the sequence so far.
+
+    Popular speakers say what fulfills predictive assumptions; comedians say what is unexpected.
+
+    The metadata describes everything except the <why>; it can only say where <why> is described.
+    <WWWWH> can be resolved to a unique quintuple of values: a database lookup based on 5 tuples.
+
+        A selecter in a database is a "tuple", the unique key to select the database item or group of items.
+        A quintuple selecter has 5 values that together are unique in selecting a database item.
+        A database might express the <WWWWH> as [W, W, W, W, H] which implies a 5-dimension array.
+
+    A release note detailing modifications limits what it communicates to release facts:
+        <who> <what> refers to some person or organization making changes to the managed object;
+        <when> is by definition now or the milestone the activity may be associated with;
+        <where> and <how> are answered in the project plan, design and architecture documents;
+        <why> is like the effect of the moon on the tides, you can't resolve that here.
+
+    A simple rule for the content of a release note statement is: <who> may be assumed to be
+    the developer; <what> should only say what is necessary to find the modified content.
+
+------------------------------------------
+
+ S~S References to stakeholder goals satisfied by this artifact should name the stakeholder.
+
+  Example: With respect to the relevant project documents used as reference.
+
+  * Reviewer, the changes made today in the interrupt handler were based on:
+    * Software Architecture Document v1.3b
+    * Hardware Architecture Document v2.0g
+
+  Example: With respect to a software developer with no experience.
+
+  * Newbie, a full review of this version requires that you download it and do a full rebuild.
+  * yadda yadda yadda
+  * blah blah blah
+
+------------------------------------------
+
+=====================
+
+ S~S What are the contents of this artifact?
+
+------------------------------------------
+
+  Example: Where Category A describes the directory structure,
+                 Category B maps functionality to source files.
+
+   The example subcategory X is associated with or relevant to both Categories;
+   within that subcategory X reference each Category refers to a different level.
+
+* Category A level 1 synopsis
+  * Category A level 1 subcategory X level 2 item 1.
+  * Category A level 1 subcategory Z level 2 item 2.
+
+* Category B level 1 synopsis
+  * Category B level 1 subcategory Y level 2 item 1.
+  * Category B level 1 subcategory X level 1 item 1.
+
+------------------------------------------
+
+=====================
+
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.

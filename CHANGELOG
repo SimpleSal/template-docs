@@ -1,0 +1,41 @@
+------------------------------------------
+
+   This file believes that this file is:    CHANGELOG  in the template-docs repository root
+
+   The managed object, as usual, is contained in the directory in the root (i.e., .\template-docs).
+
+------------------------------------------
+
+=====================
+
+TruSoft Computing LLC
+
+ S~S  SimpleSal repository human metadata documents: CHANGELOG history of published content
+
+=====================
+
+ S~S  Release notes version 260105: template-docs repository activity: create the repository
+
+------------------------------------------
+
+    Instantiate the repository version control database from file system version control database.
+
+    This collection of human metadata files were instantiated into the .\template-docs directory.
+    All of the files except LICENSE were created from scratch by TSC LLC for SimpleSal repos.
+
+        .\README                    an introduction, a window, a sales pitch about the content
+        .\FUTURES                   a hallucination, a dream, customer demand about the content
+        .\RELEASE                   instantaneous description of a release of content at Time X
+        .\CHANGELOG                 cumulative RELEASE descrptions at Time X, Y, Z
+
+        .\LICENSE                   as emitted by GitHub license Application: GPL 3.0 selected
+        .\LICENSE-TSC-LLC           an interpretation of what TSC LLC wants the license to be
+        .\COPYING                   a clear statement that copying and using needs no license
+
+        .\master-format-example     TSC LLC view of a format
+
+------------------------------------------
+
+=====================
+
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
