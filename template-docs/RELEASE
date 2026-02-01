@@ -79,22 +79,19 @@ SimpleSal software component RELEASE Note Style Guide [edit:delete after copying
 
        label on branch      release-251230      (for example)
 
- Date of Publishment        December 30, 2025
+ Date of Publishment        December 30, 2025   (for example)
 
- TSC LLC Version Identifier 251230
+ TSC LLC Version Identifier 251230              (for example)
 
- Human version Identifier   v0.9a
+ Human version Identifier   v0.9a               (for example)
 
 ------------------------------------------
 
 =====================
 
- S~S  Release notes version 260105: template-docs repository activity: create the repository
+ S~S  Release notes version 251230: template-docs repository activity: create the repository
 
 ------------------------------------------	[edit: required information in CHANGELOG]
-
-
-
 
  * [edit: describe the content in a way useful to other participants in the organization]
 

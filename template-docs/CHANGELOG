@@ -34,6 +34,12 @@ TruSoft Computing LLC
 
     <developer copied this information from the RELEASE file for TSC LLC version 251230>
 
+=====================
+
+ S~S  Release notes version 251230: template-docs repository activity: create the repository
+
+------------------------------------------	[edit: required information in CHANGELOG]
+
  S~S Changes to a repository have been published by SimpleSal:
 
  GitHub username            simplesal
@@ -50,7 +56,7 @@ TruSoft Computing LLC
 
  Human version Identifier   v0.9a
 
------------------------------------------- [edit: CHANGELOG may include pre-repo metadata]
+------------------------------------------ [edit: CHANGELOG may include pre-repo version control metadata]
 
     [edit:developer copied information from the RELEASE file for TSC LLC version 250722]
 

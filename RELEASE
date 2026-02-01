@@ -24,37 +24,23 @@ TruSoft Computing LLC
 
      branch                 main-template-docs
 
-       label on branch      release-260105      (for example)
+       label on branch      release-260201
 
- Date of Publishment        January 5, 2026
+ Date of Publishment        February 1, 2026
 
- TSC LLC Version Identifier 260105
+ TSC LLC Version Identifier 260201
 
- Human version Identifier   v0.9a
+ Human version Identifier   v0.9b
 
 ------------------------------------------
 
 =====================
 
- S~S  Release notes version 260105: template-docs repository activity: create the repository
+ S~S  Release notes version 260201: update template copyright message within metadata files
 
 ------------------------------------------
 
-    Instantiate the repository version control database from file system version control database.
-
-    This collection of human metadata files were instantiated into the .\template-docs directory.
-    All of the files except LICENSE were created from scratch by TSC LLC for SimpleSal repos.
-
-        .\README                    an introduction, a window, a sales pitch about the content
-        .\FUTURES                   a hallucination, a dream, customer demand about the content
-        .\RELEASE                   instantaneous description of a release of content at Time X
-        .\CHANGELOG                 cumulative RELEASE descrptions at Time X, Y, Z
-
-        .\LICENSE                   as emitted by GitHub license Application: GPL 3.0 selected
-        .\LICENSE-TSC-LLC           an interpretation of what TSC LLC wants the license to be
-        .\COPYING                   a clear statement that copying and using needs no license
-
-        .\master-format-example     TSC LLC view of a format
+    The year of copyright assertion within a template document is the projected year of publishment.
 
 ------------------------------------------
 
