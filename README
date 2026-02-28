@@ -1,8 +1,8 @@
 ------------------------------------------
 
-   This file believes that this file is:    README  in the template-docs repository root
+   This file thinks it is:    README  in the SimpleSal/template-docs repository human metadata.
 
-   The managed object, for TSC LLC software, is a directory in the repo root (i.e. .\template-docs).
+   The managed object, for TSC LLC repos, is a directory in the repo root (i.e., rr\template-docs\).
 
 ------------------------------------------
 
@@ -27,7 +27,7 @@
     TSC LLC's chosen publishing style:
         1) the repo contains human metadata text files and the managed object as defined here;
         2) the conventions followed for separating the metadata is adopted from GITHUB and LINUX;
-        2) the managed object is a single subdirectory self-contained within the repository root.
+        3) the managed object is a single subdirectory in the root of the repository.
 
 ------------------------------------------
 
@@ -83,17 +83,17 @@
         2) licensing (LICENSE, COPYING, COPYING-TSC-LLC);
         3) a window into understanding what the managed object is or does (README).
 
-        .\RELEASE                   instantaneous description of a release of content at Time X
-        .\CHANGELOG                 cumulative RELEASE descrptions at Time X, Y, Z
-        .\FUTURES                   a hallucination, a dream, customer demand about the content
+        rr\RELEASE                   instantaneous description of a release of content at Time X
+        rr\CHANGELOG                 cumulative RELEASE descrptions at Time X, Y, Z
+        rr\FUTURES                   a hallucination, a dream, customer demand about the content
 
-        .\LICENSE                   as emitted by GitHub license Application: GPL 3.0 selected
-        .\LICENSE-TSC-LLC           an interpretation of what TSC LLC wants the license to be
-        .\COPYING                   a clear statement that copying and using needs no license
+        rr\LICENSE                   as emitted by GitHub license Application: GPL 3.0 selected
+        rr\LICENSE-TSC-LLC           an interpretation of what TSC LLC wants the license to be
+        rr\COPYING                   a clear statement that copying and using needs no license
 
-        .\README                    an introduction, a window, a sales pitch about the content
+        rr\README                    an introduction, a window, a sales pitch about the content
 
-        .\master-format-example     TSC LLC view of a format
+        rr\master-format-example     TSC LLC view of a format
 
 ------------------------------------------
 

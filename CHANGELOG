@@ -1,8 +1,8 @@
 ------------------------------------------
 
-   This file believes that this file is:    CHANGELOG  in the template-docs repository root
+   This file thinks it is:    CHANGELOG  in the SimpleSal/template-docs repository human metadata.
 
-   The managed object, as usual, is contained in the directory in the root (i.e., .\template-docs).
+   The managed object, for TSC LLC repos, is a directory in the repo root (i.e., rr\template-docs\).
 
 ------------------------------------------
 
@@ -30,19 +30,19 @@ TruSoft Computing LLC
 
     Instantiate the repository version control database from file system version control database.
 
-    This collection of human metadata files were instantiated into the .\template-docs directory.
+    This collection of human metadata files were instantiated into the rr\template-docs directory.
     All of the files except LICENSE were created from scratch by TSC LLC for SimpleSal repos.
 
-        .\README                    an introduction, a window, a sales pitch about the content
-        .\FUTURES                   a hallucination, a dream, customer demand about the content
-        .\RELEASE                   instantaneous description of a release of content at Time X
-        .\CHANGELOG                 cumulative RELEASE descrptions at Time X, Y, Z
+        rr\README                    an introduction, a window, a sales pitch about the content
+        rr\FUTURES                   a hallucination, a dream, customer demand about the content
+        rr\RELEASE                   instantaneous description of a release of content at Time X
+        rr\CHANGELOG                 cumulative RELEASE descrptions at Time X, Y, Z
 
-        .\LICENSE                   as emitted by GitHub license Application: GPL 3.0 selected
-        .\LICENSE-TSC-LLC           an interpretation of what TSC LLC wants the license to be
-        .\COPYING                   a clear statement that copying and using needs no license
+        rr\LICENSE                   as emitted by GitHub license Application: GPL 3.0 selected
+        rr\LICENSE-TSC-LLC           an interpretation of what TSC LLC wants the license to be
+        rr\COPYING                   a clear statement that copying and using needs no license
 
-        .\master-format-example     TSC LLC view of a format
+        rr\master-format-example     TSC LLC view of a format
 
 ------------------------------------------
 

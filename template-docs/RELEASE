@@ -1,14 +1,14 @@
 ------------------------------------------ [delete: after copying master to instance]
 
-   This example instance of this file is: RELEASE in the "template-docs" repository.
+   This example instance of this file is: RELEASE in the SimpleSal/template-docs repository.
+
+   This template is contained within the managed object directory (i.e., rr\template-docs\RELEASE).
 
    Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
 
 ------------------------------------------ [edit:none]
 
-   This file believes that this file is:    RELEASE  in the repo root with the managed object.
-
-   This file is expected to be unique to the repository as it is metadata about the managed object.
+   This file thinks it is:  RELEASE in the SimpleSal/<repo-name>  (this file after copied and edited)
 
 ------------------------------------------ [edit:none]
 
@@ -71,7 +71,7 @@ SimpleSal software component RELEASE Note Style Guide [edit:delete after copying
 
  S~S Changes to a repository have been published by SimpleSal:
 
- GitHub username            simplesal
+ GitHub username            SimpleSal
 
    repository               example-repo
 

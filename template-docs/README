@@ -1,14 +1,14 @@
 ------------------------------------------ [delete: after copying master to instance]
 
-   This example instance of this file is: README in the "template-docs" repository.
+   This example instance of this file is: README in the SimpleSal/template-docs repository.
+
+   This template is contained within the managed object directory (i.e., rr\template-docs\README).
 
    Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
 
 ------------------------------------------ [edit:none]
 
-   This file believes that this file is:    README  in the repo root with the managed object.
-
-   This file is expected to be unique to the repository as it is metadata about the managed object.
+   This file thinks it is:  README in the SimpleSal/<repo-name> (this file after copied and edited)
 
 ------------------------------------------ [edit:none]
 =====================
@@ -36,7 +36,7 @@
     TSC LLC's chosen publishing style:
         1) the repo contains human metadata text files and the managed object as defined here;
         2) the conventions followed for separating the metadata is adopted from GITHUB and LINUX;
-        2) the managed object is a single subdirectory self-contained within the repository root.
+        3) the managed object is a single subdirectory in the root of the repository.
 
 ------------------------------------------
 
@@ -135,22 +135,23 @@
 
 ------------------------------------------
 
- S~S The SimpleSal Ecosystem
+  S~S The value of a 3-legged footstool
 
-    In ancient history, people used to make a footstool with three legs, not four legs.  It is the
-    addition of the fourth leg that makes it important that all legs be of the same length.  Until
-    the fourth leg makes a requirement on the design, the three-legged stool is stable anywhere.
+    What is the increase in complexity when moving from three legs to four legs?  It is the
+    addition of the fourth leg that creates a need in the design for parallel lines and symmetry.
+    The four-legged footstool wobbles usually; the three-legged footstool is stable anywhere.
+    It probably is never truly level across the surface, but it is stable to stand on.
 
     The SimpleSal three-legged stool is built from:
 
     1) the published software in the repo:
-        GitHub /simplesal/SimpleSal repository, branch main-SimpleSal
+        GitHub username SimpleSal, simplesal repository, branch main-simplesal
 
-    2) the information within the repo about how to make use of the SimpleSal software:
+    2) the information within the published software about how to make use of SimpleSal software:
         \SimpleSal\ssDocs\Find and Open Documents.html          <web browser viewable>
 
     3) the information about how to write signal algorithms using software
-        simplesal's substack.com website, most content free without a subscription
+        simplesal's substack.com website, most content free without a subscription, see below
 
 ------------------------------------------
 
@@ -201,7 +202,7 @@
 
     * for a SimpleSal App:       'the contents...", a file named App.ino.'   Same as non-SimpleSal.
 
-    * for the SimpleSal source:  'the contents..., a directory, goes into the App as .\SimpleSal.'
+    * for the SimpleSal source:  'the contents..., a directory, goes into the App as rr\App\SimpleSal'
 
   * The SimpleSal and TSC LLC philosophy about organizing software in a workspace over Time
     is related to the principle some call "separation of concerns" in software development:
