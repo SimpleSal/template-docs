@@ -1,135 +1,44 @@
-------------------------------------------
 
-   This file thinks it is:    README  in the SimpleSal/template-docs repository human metadata.
-
-   The managed object, for TSC LLC repos, is a directory in the repo root (i.e., rr\template-docs\).
-
-------------------------------------------
+   This file thinks it is:  README in the SimpleSal/template-docs repo root
 
 =====================
 
- S~S TruSoft Computing LLC (TSC LLC) Repository Philosophy
+    TruSoft Computing LLC
 
-------------------------------------------
-
- S~S   SimpleSal explains the managed object concept
-
-    This is the README about the templates for metadata documents TSC LLC publishes in a repo.
-    TSC LLC's idea of a managed object excludes anything present in the repo that is metadata.
-
-    The repo database contains what TSC LLC calls the "repo object": that thing the repo controls.
-        The repo database MANAGER applications maintain metadata about the repo object.
-
-    A "managed object" is what TSC LLC calls everything in the repo, EXCEPT files ABOUT the repo.
-        The repo database OWNER maintains metadata about the managed object.
-        The repo database OWNER invents conventions to help separate managed object from METADATA.
-
-    TSC LLC's chosen publishing style:
-        1) the repo contains human metadata text files and the managed object as defined here;
-        2) the conventions followed for separating the metadata is adopted from GITHUB and LINUX;
-        3) the managed object is a single subdirectory in the root of the repository.
-
-------------------------------------------
+   S~S  SimpleSal documents: metadata describing README documents and what will be read by you
 
 =====================
 
-  S~S The Elevator Pitch
+   S~S This Repository
 
 ------------------------------------------
 
-    This README file is about the template documents, one of which is a template README file.
+   S~S  What is the purpose of the objects in this repository?
 
-    This README file is a description of the purpose and content of information IN human metadata.
+    Describe the metadata that TSC LLC software projects use to describe the contents from various views.
 
-    Like the Elevator Pitch, the README is the best, and maybe only, chance to sell the software.
-
-------------------------------------------
-
-=====================
-
- S~S Repository and Version Control Vocabulary
 
 ------------------------------------------
 
-    SimpleSal source code content is published through a version control system known as GitHub.
-    GitHub allows a developer to create a "repository" of content accessible throughout the world.
+   S~S  What are the contents of this repository?
 
-    The "repo" content and information about the repo's content is presented to humans and computers.
-    Information about the repo's content, in human or computer form, is called "the metadata".
+   * the metadata selected by TSC LLC for use in describing TSC LLC repositories, in template form.
 
-    The specification of the style and content of human metadata is made by the content publisher.
-    The software development culture around the developer is also made by the content publisher.
+   * extensive suggestions, ideas, documentation about the use and content of the metadata files.
 
-------------------------------------------
-
-=====================
-
- S~S Metadata about the managed object contents
+   The trick is that the extensive information about metadata is contained within the metadata file.
 
 ------------------------------------------
 
-    Text files with Ascii characters are used to publish metadata in several categories.
-
-    The directory structure convention some GitHub users follow is the managed object is the set
-    of source files in the same directory as the metadata files.  This intermixes types of files;
-    repository Apps have, as a result, sophisticated filter and mask tools to keep it straight.
-
-    The convention TSC LLC follows is that the metadata files exist in the repo root as above,
-    while the managed object collection of files exist in a directory in the repo root itself.
-
-    This repo contains the templates suggested or followed by TSC LLC for version control.
-
-        1) version control (RELEASE, CHANGELOG, FUTURES);
-        2) licensing (LICENSE, COPYING, COPYING-TSC-LLC);
-        3) a window into understanding what the managed object is or does (README).
-
-        rr\RELEASE                   instantaneous description of a release of content at Time X
-        rr\CHANGELOG                 cumulative RELEASE descrptions at Time X, Y, Z
-        rr\FUTURES                   a hallucination, a dream, customer demand about the content
-
-        rr\LICENSE                   as emitted by GitHub license Application: GPL 3.0 selected
-        rr\LICENSE-TSC-LLC           an interpretation of what TSC LLC wants the license to be
-        rr\COPYING                   a clear statement that copying and using needs no license
-
-        rr\README                    an introduction, a window, a sales pitch about the content
-
-        rr\master-format-example     TSC LLC view of a format
-
-------------------------------------------
-
-=====================
-
- S~S This Repository
-
-------------------------------------------
-
- S~S  What is the purpose of the objects in this repository?
-
-    * describe metadata for humans and computers: within the repo, about the repo
-
-    Most metadata information is outside the scope of the software, it is instead about software.
-    None of the metadata files are referenced by any TSC LLC software.
-
-------------------------------------------   [edit: this published thing will look like this]
-
- S~S  What are the contents of this repository?
-
-   * The metadata selected by TSC LLC for use in describing TSC LLC repositories.
-
-------------------------------------------
-
- S~S  What happens in my workspace as a result of interacting with this repository?
+   S~S  What happens in my workspace as a result of interacting with this repository?
 
     The managed object will be placed into your workspace, along with the human metadata file
     (depending on your ability to configure the repo App to only consider files matching filters).
 
     The only reason to have a copy locally is if these files are being modified for a release.
-
     Readers still awake will realize the SimpleSal metadata about the directory content will
     match the name and therefore overwrite a conventional software package's local metadata files.
-
     This is a disadvantage resulting fro TSC LLC separates the managed object into a subdirectory.
-
 ------------------------------------------
 
 =====================

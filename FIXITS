@@ -1,24 +1,15 @@
------------------------------------------- [delete: after copying master to instance]
 
-   This example instance of this file is: FIXITS in the SimpleSal/template-docs repository.
-
-   This template is contained within the managed object directory (i.e., rr\template-docs\FIXITS).
-
-   Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
-
------------------------------------------- [edit:none]
-
-   This file thinks it is:  FIXITS in the SimpleSal/<repo-name>  (this file after copied and edited)
-
------------------------------------------- [edit:none]
+   This file thinks it is:  FIXITS in the SimpleSal/template-docs repo root
 
 =====================
 
 TruSoft Computing LLC
 
- S~S  SimpleSal template documents: metadata linking external information systems to repo changes
+   S~S  SimpleSal documents: metadata linking external information systems to repo changes
 
 =====================
+
+   S~S FIXITs philosophy: each is a petroglyph, carved into rock, in the desert, pointing to water
 
 ------------------------------------------
 
@@ -28,65 +19,15 @@ TruSoft Computing LLC
 
     Source control mechanisms should not, in fact can not, contain all history and explanations.
 
-    This file is the index relating a software change to a unique identifier in a database.
+    This file is the index relating a software change to an identifier useful in all databases.
 
 ------------------------------------------
 
-    The description of a version of a software product under development includes information that
-    explains the REASON changes were made.  The lists of reasons for changes to the software include
-    keywords usable in the information system used to keep track of all of the changes everywhere.
+    The SimpleSal template document FIXIT contains the organization's FIXIT conventions.
 
-    In support of its educational goals, TSC LLC invents the word "FIXIT" as a placeholder for the
-    word chosen by the software development culture behind the ecosystem the developer works in.
+    This document describes the current state of the known FIXITS in the template documents.
 
-    The assignment of a FIXIT identifier instantiates a database entry that now will live forever.
-    The FSM of state changes to the FIXIT over Time are described by corporate project management.
-
-    The FIXIT database has a primary selection value for each individual and unique item.
-    References to the value are made throughout repository metadata, without repeating the content.
-
------------------------------------------- [edit:none]
-
-    Every software development organization makes up a set of conventions that must be followed.
-
-    FIXIT keyword definition adopted for this project within this organization:
-
-        FppTnn   <format><project ID><M:missing | B:broken><integer 0-99>
-
-    The first letter defines the format of the rest of the keyword.  Every keyword in the database
-    that starts with 'F' will have exactly and completly the format described here.  This allows
-    corporate project management to separately share a single database across the organization.
-
-    For example, for experimental projects that may still require oversight and documentation:
-
-        Xlllccssnn     <format><3-letter lab acronym><category><subcategory><integer 0-99>
-
------------------------------------------- [edit:none]
-
-    This metadata file's content relates only to the version this metadata file describes.
-
-    Each FIXIT referenced is in a defined state, within the definition of the FSM.
-
-    Any description of the FIXIT should be copied only from the database instance all can see.
-    Any descrepancy between the description here and the database instance indicates entropy.
-
-    Broken in this version
-        F14B16      any launch of Time Event fails in validation due to function pointer
-        F14B17      TIMER launch of Time Event fails in validation due to invalid Time value
-        F14B23
-
-    Missing from this version
-        F14M33      serial input handling
-        F14M34      statistics display Event
-        F14M35      terminating condition on ssTEA error
-
-    Broken Fixed in this version
-        F14B02
-        F14B03
-
-    Missing Added in this version
-        F14M12
-        F14M16
+------------------------------------------
 
 =====================
 

@@ -1,28 +1,63 @@
------------------------------------------- [delete: after copying master to instance]
+=====================   [delete: information common to all templates]
 
-   This example instance of this file is: CHANGELOG  in the SimpleSal/template-docs repository.
+  S~S  A brief digression into THIS repo's metadata about managed objects, which are metadata templates files.
 
-   This template is contained within the managed object directory (i.e., rr\template-docs\CHANGELOG).
+------------------------------------------
 
-   Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
+    The human metadata files suggested as templates by TSC LLC are provided under version control.
 
------------------------------------------- [edit:none]
+    The human metadata files in a repository root are based on these templates, edited per repo.
+    Modify the repo instance of the template instance, where there are "[edit:" or "[delete:" markers.
 
-   This file thinks it is:  CHANGELOG in the SimpleSal/<repo-name>       (this file after copied and edited)
+------------------------------------------
 
------------------------------------------- [edit:none]
+   This file is contained in the template-docs repo's managed object, a directory, "\template-docs\".
+
+        SimpleSal/template-docs                             repo name
+
+        SimpleSal/template-docs\template-docs\              managed object
+
+        SimpleSal/template-docs\template-docs\CHANGELOG     file name
+
+   This file, after being copied and edited, is contained in any TSC LLC repo as human metadata.
+
+        SimpleSal/<repo-name>\CHANGELOG
+
+   The template-instance to repo-instance transition is a task when a SimpleSal repo is instantiated..
+
+------------------------------------------
+
+   A proper SimpleSal repo has metadata ABOUT the managed object,
+   including when the managed object is ABOUT metadata.
+
+        SimpleSal/template-docs\template-docs\CHANGELOG         template file
+
+        SimpleSal/template-docs\CHANGELOG                       about the template file
+
+------------------------------------------
+
+=====================   [delete: information common to all templates]
+
+   This file thinks it is:  CHANGELOG in the SimpleSal/<repo-name> repo root         [edit:]
+
+------------------------------------------
 
 =====================
 
 TruSoft Computing LLC
 
- S~S  [edit:SimpleSal App software, or, SimpleSal software] CHANGELOG history of published content
+  S~S  SimpleSal template documents: CHANGELOG
 
 =====================
 
------------------------------------------- [edit:delete after copying master to instance]
 
- S~S  SimpleSal software component CHANGELOG Note Style Guide:
+  S~S  [edit:SimpleSal App software, or, SimpleSal software] CHANGELOG content described by each RELEASE
+
+=====================
+
+------------------------------------------ [delete: after transition of template to repo instance]
+
+  S~S  SimpleSal software component CHANGELOG Note Style Guide:
 
      Each formal publication of a labeled version of software will describe the changes made.
 
@@ -36,11 +71,11 @@ TruSoft Computing LLC
 
 =====================
 
- S~S  Release notes version 251230: template-docs repository activity: create the repository
+  S~S  Release notes version 251230: template-docs repository activity: create the repository
 
 ------------------------------------------	[edit: required information in CHANGELOG]
 
- S~S Changes to a repository have been published by SimpleSal:
+  S~S  Changes to a repository have been published by SimpleSal:
 
  GitHub username            SimpleSal
 

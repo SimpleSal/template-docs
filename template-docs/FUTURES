@@ -1,48 +1,138 @@
------------------------------------------- [delete: after copying master to instance]
+=====================   [delete: information common to all templates]
 
-   This example instance of this file is: FUTURES in the SimpleSal/template-docs repository.
-
-   This template is contained within the managed object directory (i.e., rr\template-docs\FUTURES).
-
-   Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
-
------------------------------------------- [edit:none]
-
-   This file thinks it is:  FUTURES in the SimpleSal/<repo-name> (this file after copied and edited)
-
------------------------------------------- [edit:none]
-
-=====================
-
-TruSoft Computing LLC
-
- S~S  [edit:SimpleSal App software, or, SimpleSal software] FUTURES imagined and planned
-
-=====================
+  S~S  A brief digression into THIS repo's metadata about managed objects, which are metadata templates files.
 
 ------------------------------------------
+
+    The human metadata files suggested as templates by TSC LLC are provided under version control.
+
+    The human metadata files in a repository root are based on these templates, edited per repo.
+    Modify the repo instance of the template instance, where there are "[edit:" or "[delete:" markers.
+
+------------------------------------------
+
+   This file is contained in the template-docs repo's managed object, a directory, "\template-docs\".
+
+        SimpleSal/template-docs                             repo name
+
+        SimpleSal/template-docs\template-docs\              managed object
+
+        SimpleSal/template-docs\template-docs\FUTURES       file name
+
+   This file, after being copied and edited, is contained in any TSC LLC repo as human metadata.
+
+        SimpleSal/<repo-name>\FUTURES
+
+   The template-instance to repo-instance transition is a task when a SimpleSal repo is instantiated..
+
+------------------------------------------
+
+   A proper SimpleSal repo has metadata ABOUT the managed object,
+   including when the managed object is ABOUT metadata.
+
+        SimpleSal/template-docs\template-docs\FUTURES         template file
+
+        SimpleSal/template-docs\FUTURES                       about the template file
+
+------------------------------------------
+
+=====================   [delete: information common to all templates]
+
+   This file thinks it is:  FUTURES in the SimpleSal/<repo-name> repo root       [edit:]
+
+------------------------------------------
+
+=====================
+
+    TruSoft Computing LLC
+
+  S~S  SimpleSal template documents: FUTURES
+
+=====================
+
+ S~S  Recalling the purpose of publishing template documents in the first place.
+
+------------------------------------------
+
+    Over Time, while working on a single project, or a set of related or unrelated projects, a
+    developer will migrate the style and content of information they produce based on the consumer.
+
+    A team of developers, all migrating over Time, are interacting with other consumers inside and
+    the outside the development organization: QA, user document publishers, web page designers, etc.
+
+    The metadata about the managed object is the language used by all these interacting human FSMs.
+    Any language evolves over Time as humans interact using the language within the ecosystem.
+
+    This is why the most defined and constrictive work writing requirements are about the metadata.
+
+------------------------------------------
+
+=====================
 
  S~S  Features, fixes, changes on the list of things we'd like to do:
 
-* extend the ssIO model from pins and register to include DMA engines and interrupt controllers
-* add direct support for a variety of Host OSes: Windows App, linux App, Apple App
-* resolve, eliminate, or, describe a resolution for, each 'bugbugbug' in text files
+------------------------------------------
+
+    * Conform... conform...  To be found by others, you must look like what they are seeking.
+
+      When software merges into ecosystems such as Arduinio and Linix, local conventions take over.
+
+    * the current and future purpose of the SimpleSal ecosystem is to provide
+
+          an introductory software development example
+
+          with a moderately complex software implementation.
+
+    * the current and future purpose of the documents in this repo is to provide
+
+          an introductory software development example
+
+          with a moderately complex software implementation.
 
 ------------------------------------------
 
- S~S  Tasks and changes that are planned to end up described by a change log entry some day:
+=====================
 
-* Example: the ssIO model's latency effect on virtual serial ports has not been stabilitized
+ S~S  Issues and conventions that SimpleSal and TSC LLC will not be changing
 
 ------------------------------------------
 
- S~S  Modifications to SimpleSal are encouraged.
+    * The goal of the SimpleSal educational environment is to introduce ideas, so many advanced
+      and cool examples of human and computer metadata possible in modern repos are not included.
 
-    A user of SimpleSal should modify the files in the rr\App\SimpleSal directory, within the App.
+      In reality, given SimpleSal is co-existing software compiled with the App, the developer
+      using SimpleSal in their App acts within the development organization paying for the App.
+
+------------------------------------------
+
+
+=====================
+
+------------------------------------------
+
+  S~S an example
+
+------------------------------------------
+
+  S~S  Features, fixes, changes on the list of things we'd like to do:
+
+    * extend the ssIO model from pins and register to include DMA engines and interrupt controllers
+    * add direct support for a variety of Host OSes: Windows App, linux App, Apple App
+    * resolve, eliminate, or, describe a resolution for, each 'bugbugbug' in text files
+
+------------------------------------------
+
+  S~S  Tasks and changes that are planned to end up described by a change log entry some day:
+
+    * Example: the ssIO model's latency effect on virtual serial ports has not been stabilitized
+
+------------------------------------------
+
+  S~S  Modifications to SimpleSal are encouraged.
 
     The Time Line, or FUTURE, for SimpleSal includes entertaining pull requests from SimpleSal users.
 
-    ("entertaining" means "considering for integration into SimpleSal", not "makes me laugh out loud".
+    ("entertaining" means "considering for integration into SimpleSal", not "makes me laugh out loud".)
 
 ------------------------------------------
 

@@ -1,20 +1,56 @@
-------------------------------------------
 
-   This file thinks it is:    CHANGELOG  in the SimpleSal/template-docs repository human metadata.
-
-   The managed object, for TSC LLC repos, is a directory in the repo root (i.e., rr\template-docs\).
-
-------------------------------------------
+   This file thinks it is:  CHANGELOG in the SimpleSal/template-docs repo root
 
 =====================
 
 TruSoft Computing LLC
 
- S~S  SimpleSal repository human metadata documents: CHANGELOG history of published content
+   S~S  SimpleSal documents: metadata as a recording of RELEASE content over Time: CHANGELOG
 
 =====================
 
- S~S  Release notes version 260201: update template copyright message within metadata files
+------------------------------------------
+
+   S~S Changes to a repository have been published by SimpleSal:
+
+ GitHub username            SimpleSal
+
+   repository               template-docs
+
+     branch                 main-template-docs
+
+       label on branch      release-260304
+
+ Date of Publishment        March 03, 2026
+
+ TSC LLC Version Identifier 260304
+
+ Human version Identifier   v1.0a
+
+------------------------------------------
+
+=====================
+
+   S~S  Release notes version 260304: publish v1.0a to the public consumer
+
+------------------------------------------
+
+    "template document files" is a collection of documents about the format and content
+    of the human metadata files, as defined by the culture of the SimpleSal organization.
+
+    In the future, when publishing a SimpleSal App, the task list might include:
+
+        copy the template files into the instance directory containing the managed object
+
+        edit the copied versions as recommended by the template files
+
+        add the edited files to the repository in the repo root
+
+------------------------------------------
+
+=====================
+
+   S~S  Release notes version 260201: update template copyright message within metadata files
 
 ------------------------------------------
 
@@ -24,7 +60,7 @@ TruSoft Computing LLC
 
 =====================
 
- S~S  Release notes version 260105: template-docs repository activity: create the repository
+   S~S  Release notes version 260105: template-docs repository activity: create the repository
 
 ------------------------------------------
 

@@ -1,27 +1,60 @@
------------------------------------------- [delete: after copying master to instance]
+=====================   [delete: information common to all templates]
 
-   This example instance of this file is: README in the SimpleSal/template-docs repository.
-
-   This template is contained within the managed object directory (i.e., rr\template-docs\README).
-
-   Modify the example instance by modifying each occurence of the "[edit:" or "[delete:" markers.
-
------------------------------------------- [edit:none]
-
-   This file thinks it is:  README in the SimpleSal/<repo-name> (this file after copied and edited)
-
------------------------------------------- [edit:none]
-=====================
-
- S~S  SimpleSal template documents: README information about working with SimpleSal source files
-
-=====================
-
- S~S TruSoft Computing LLC (TSC LLC) Repository Philosophy
+  S~S  A brief digression into THIS repo's metadata about managed objects, which are metadata templates files.
 
 ------------------------------------------
 
- S~S   SimpleSal explains the managed object concept
+    The human metadata files suggested as templates by TSC LLC are provided under version control.
+
+    The human metadata files in a repository root are based on these templates, edited per repo.
+    Modify the repo instance of the template instance, where there are "[edit:" or "[delete:" markers.
+
+------------------------------------------
+
+   This file is contained in the template-docs repo's managed object, a directory, "\template-docs\".
+
+        SimpleSal/template-docs                             repo name
+
+        SimpleSal/template-docs\template-docs\              managed object
+
+        SimpleSal/template-docs\template-docs\README        file name
+
+   This file, after being copied and edited, is contained in any TSC LLC repo as human metadata.
+
+        SimpleSal/<repo-name>\README
+
+   The template-instance to repo-instance transition is a task when a SimpleSal repo is instantiated..
+
+------------------------------------------
+
+   A proper SimpleSal repo has metadata ABOUT the managed object,
+   including when the managed object is ABOUT metadata.
+
+        SimpleSal/template-docs\template-docs\README         template file
+
+        SimpleSal/template-docs\README                       about the template file
+
+------------------------------------------
+
+=====================   [delete: information common to all templates]
+
+   This file thinks it is:  README in the SimpleSal/<repo-name> repo root    [edit:]
+
+------------------------------------------
+
+=====================
+
+TruSoft Computing LLC
+
+  S~S  SimpleSal template documents: README
+
+=====================
+
+  S~S  [edit:SimpleSal App software, or, SimpleSal software] Repository Mythology
+
+------------------------------------------
+
+  S~S   SimpleSal explains the managed object concept
 
     This is the README about the managed objects in this repo.
     TSC LLC's idea of a managed object excludes anything present in the repo that is metadata.
@@ -35,7 +68,7 @@
 
     TSC LLC's chosen publishing style:
         1) the repo contains human metadata text files and the managed object as defined here;
-        2) the conventions followed for separating the metadata is adopted from GITHUB and LINUX;
+        2) the conventions followed for separating the metadata are adopted from GITHUB. and LINUX.;
         3) the managed object is a single subdirectory in the root of the repository.
 
 ------------------------------------------
@@ -58,9 +91,9 @@
 
 =====================
 
-------------------------------------------  [delete: after copying master to instance]
+------------------------------------------  [delete: after transition of template to repo instance]
 
- S~S  SimpleSal Ecosystem README general content guide
+  S~S  SimpleSal Ecosystem README general content guide
 
     When a repository user is looking at a repository for the first time, they see the root of
     the repository.  In the root are files describing the managed object within the repository,
@@ -68,7 +101,7 @@
     the managed object.  The software publishing culture uses common signals to communicate.
 
     The signals are "about" the managed object's data so they are called "metadata":
-        1) version control (RELEASE, CHANGELOG);
+        1) version control (FIXITS, RELEASE, CHANGELOG);
         2) licensing (LICENSE, COPYING);
         3) README.
 
@@ -78,9 +111,9 @@
 
     When the software you publish changes, or is adopted for use by others, other files follow.
 
-------------------------------------------  [delete: after copying master to instance]
+------------------------------------------  [delete: after transition of template to repo instance]
 
- S~S  Making modifications to SimpleSal
+  S~S  Making modifications to SimpleSal
 
   A design goal: no modifications to SimpleSal files are needed to modify the behavior or content.
 
@@ -90,13 +123,13 @@
 
   The multi-layer design of the workspace model allows a change that breaks EVERYTHING to be undone.
 
-------------------------------------------
+------------------------------------------  [delete: after transition of template to repo instance]
 
 =====================
 
-------------------------------------------   [edit:delete after copying master to instance]
+------------------------------------------  [delete after transition of template to repo instance]
 
- S~S The Idea of an Elevator Pitch
+  S~S The Idea of an Elevator Pitch
 
     The README file is the publisher's one chance to make the elevator pitch.
 
@@ -129,7 +162,7 @@
 
     Ding.  Elevator door opens.
 
-------------------------------------------
+------------------------------------------  [delete: after transition of template to repo instance]
 
 =====================                        [edit: everything published exists within this idea]
 
@@ -155,7 +188,7 @@
 
 ------------------------------------------
 
- S~S Published information outside the repo's human metadata AND repo metadata.
+  S~S Published information outside the repo's human metadata AND repo metadata.
 
     This text is not-clickable information about the free SimpleSal ecosystem of code and documents.
 
@@ -171,11 +204,11 @@
 
 ------------------------------------------
 
- S~S This Repository
+  S~S This Repository
 
 ------------------------------------------
 
- S~S  What is the purpose of the software in this repository?
+  S~S  What is the purpose of the software in this repository?
 
     * Support SimpleSal ecosystem educational goals by providing free software source code.
     * Provide software of moderate complexity that can be broken, fixed, improved, abandoned.
@@ -183,7 +216,7 @@
 
 ------------------------------------------   [edit: this published thing will look like this]
 
- S~S  What are the contents of this repository?
+  S~S  What are the contents of this repository?
 
    * While accessed through the repo App, the contents being worked on ARE the managed object.
      NOT "in the managed object" BUT "are the managed object": as a directory, or, a set of files.
@@ -193,7 +226,7 @@
 
 ------------------------------------------
 
- S~S  What happens in my workspace as a result of interacting with this repository?
+  S~S  What happens in my workspace as a result of interacting with this repository?
 
   * The instance in the workspace contains a copy of the contents of the managed object.
 
@@ -222,7 +255,7 @@
 
 ------------------------------------------   [edit: provide a view from 10,000 feet and falling]
 
- S~S   directory tree structure:
+  S~S   directory tree structure:
 
   User space for Arduino is a directory "App" containing the "SimpleSal" directory and "App.ino".
   The Arduino IDE build environment expects a SimpleSal directory to be in each App's directory.
@@ -243,7 +276,7 @@
 
 ------------------------------------------
 
- S~S   Project notes and other information that is not easy to place in a category
+  S~S   Project notes and other information that is not easy to place in a category
 
 ------------------------------------------
 
@@ -262,7 +295,7 @@
 ------------------------------------------
 
   There is ssDocs documentation specific to the architecture and implementation of ssTEA and ssUI,
-  sd a software component co-existing with the App.  For example, allocation of the database used
+  as software components co-existing with the App.  For example, allocation of the database used
   for Event descriptors may be performed by the App or ssTEA; the App is free to take control and
   replace ssTEA's static allocation algorithm with a dynamic allocation using malloc.  Try it.
 

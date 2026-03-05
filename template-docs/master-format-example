@@ -1,49 +1,58 @@
 
------------------------------------------- [edit:none]
-
     This file believes that this file is: "master-format-example" in the "template-docs" repository.
 
     This file is expected to exist only in the template-docs repo; it is a developer document.
-
------------------------------------------- [edit:none]
 
 =====================
 
 TruSoft Computing LLC
 
- S~S Style and Content Guide TSC LLC uses when writing metadata documentation
+ S~S The Style and Content Guide TSC LLC uses when writing metadata documentation
 
 ------------------------------------------
 
-    Basic guidelines:
+    What is stated here simply provides an example useful for discussion in other SimpleSal content.
 
-        Write a statement, using the form:  <who> <what> <when> <where> <how>   let's say "<WWWWH>"
+    What is implied is that when SimpleSal Apps are submitted for publishment through the SimpleSal
+    repository, the documentation form and content will probably have to conform with guidelines.
 
-            Each statement topic will be given a value by the reader if a value is not stated.
+------------------------------------------
 
-              Example: TSC LLC publishes SimpleSal content periodically on GitHub.
-                <how> is assumed because without the assumed internet, GitHub might not work.
+    First, consider the consumer of the description of the software:
 
-              Example: modified the interrupt handler initialization to fix Bug #1199
-                <who> is the developer, <when><where><how> matters if not "today with an editor".
-                <what> clearly must uniquely state specific information about a specific task.
+    Write a statement, using the form:  <who> <what> <when> <where> <how>   let's say "<WWWWH>"
 
-        The answer to "Why?" is in the project documentation somewhere.
+        Each statement topic will be given a value by the reader if a value is not stated.
 
-        Use spaces and indentation to show relationships between a statement and further discussion.
+          Example: TSC LLC published SimpleSal content as scheduled on GitHub.
+            <how> is assumed because without the assumed internet, GitHub might not work.
 
-        Use simple graphics to separate sections within a discussion about a statement.
+          Example: modified the interrupt handler initialization to fix Bug #1199
+            <who> is the developer, <when><where><how> matters if not "today with an editor".
+            <what> clearly must uniquely state specific information about a specific task.
 
-                =====
-                statement or complete thought without sections
-                =====
-                statement or complete thought with sections
-                ---------
-                section about statement
-                ---------
-                section about statement
-                ---------
-                =====
+    The answer to "Why?" is in the project documentation somewhere.
+
+------------------------------------------
+
+    Second, consider the way the human eye and human mind scans and parses the page visually.
+
+    Limited notation: Ascii character set; outline markers '=', '-' and '*'; header tags.
+
+    Use spaces and indentation to show relationships between a statement and further discussion.
+
+    Use simple graphics to separate sections within a discussion about a statement.
+
+            =====
+            statement or complete thought without sections
+            =====
+            statement or complete thought with sections
+            ---------
+            section about statement
+            ---------
+            section about statement
+            ---------
+            =====
 
 ------------------------------------------
 
@@ -55,7 +64,7 @@ TruSoft Computing LLC
     Outside the repo, in the developer's workspace, the human metadata content is a text database,
     searchable using simple applications.  For example, the format suggests topical sections the
     developer writes might start with a searchable tag; prepend "S~S" in front of all these lines;
-    a file system tool that searches for strings in text files shows all the files and lines.
+    a file system tool that searches for strings in text files shows what looks like an outline.
 
 ------------------------------------------
 
@@ -65,88 +74,65 @@ TruSoft Computing LLC
 
 ------------------------------------------
 
-  SimpleSal documents produced for metadata purposes use this organization and with a very
-  limited notation: Ascii character set; outline markers '=', '-' and '*'; "S~S" header tags.
+    The reason that TSC LLC sets a low bar for expectations with respect to source control metadata
+    is that the time and energy needed to create nicely-formatted content is beyond the basic task.
 
-  The reason that TSC LLC sets a low bar for expectations with respect to source control metadata
-  is that the time and energy needed to create nicely-formatted content is beyond the basic task.
+    The example demonstrates that the tools used to view and manipulate both the repo and the
+    human metadata are the narrow funnel through which managed object versions are understood.
 
-  The example demonstrates that the tools used to view and manipulate both the repo and the
-  human metadata are the narrow funnel through which managed object versions are understood.
-
-  Conformity enforced by the system is simplified down to a level any human or computer can meet.
-  For example, a photographic image of a version number might not be parsable by some consumers.
+    Conformity enforced by the system is simplified down to a level any human or computer can meet.
+    For example, a photographic image of a version number might not be parsable by some consumers.
 
 ------------------------------------------
 
 =====================
 
- S~S Consumers of metadata expect it to be in some form
+ S~S Consumers of metadata expect it to be in some standard form
 
 ------------------------------------------
 
-    It is always good to think for a moment about the consumer of your output.  The use of
-    specific words and phrases in <WWWWH> can clarify the meaning of the information you write.
+    Specific words and phrases in <WWWWH> form can clarify the meaning of the information you write.
 
     A human speaker saying "<who> <what> <when> <where> <how>" expects the audience to predict
     the next word in sequence if the speaker stops at any point.  Humans build an expectation
     of what the speaker will say, based on what the speaker has said in the sequence so far.
 
-    Popular speakers say what fulfills predictive assumptions; comedians say what is unexpected.
+    Popular speakers say what most listeners think they will say next; comedians say the unexpected.
 
     The metadata describes everything except the <why>; it can only say where <why> is described.
-    <WWWWH> can be resolved to a unique quintuple of values: a database lookup based on 5 tuples.
+    Each <WWWWH> word can be resolved to a unique set of values which allows a database lookup.
 
-        A selecter in a database is a "tuple", the unique key to select the database item or group of items.
+        A selecter in a database is a "tuple", the unique key to select the database items.
         A quintuple selecter has 5 values that together are unique in selecting a database item.
         A database might express the <WWWWH> as [W, W, W, W, H] which implies a 5-dimension array.
 
-    A release note detailing modifications limits what it communicates to release facts:
+    A release note detailing modifications limits what it communicates, to facts about the release:
         <who> <what> refers to some person or organization making changes to the managed object;
         <when> is by definition now or the milestone the activity may be associated with;
         <where> and <how> are answered in the project plan, design and architecture documents;
         <why> is like the effect of the moon on the tides, you can't resolve that here.
 
-    A simple rule for the content of a release note statement is: <who> may be assumed to be
-    the developer; <what> should only say what is necessary to find the modified content.
-
 ------------------------------------------
 
  S~S References to stakeholder goals satisfied by this artifact should name the stakeholder.
 
-  Example: With respect to the relevant project documents used as reference.
+    Example: With respect to the relevant project documents used as reference.
 
-  * Reviewer, the changes made today in the interrupt handler were based on:
-    * Software Architecture Document v1.3b
-    * Hardware Architecture Document v2.0g
+    * Reviewer, the changes made today in the interrupt handler were based on:
+      * Software Architecture Document v1.3b
+      * Hardware Architecture Document v2.0g
 
-  Example: With respect to a software developer with no experience.
+    Example: With respect to a software developer with no experience.
 
-  * Newbie, a full review of this version requires that you download it and do a full rebuild.
-  * yadda yadda yadda
-  * blah blah blah
+    * Newbies: a full review of this version requires that you download it and do a full rebuild.
+      (this is an explicit direction to a new developer, just a helpful reminder)
 
-------------------------------------------
+    * HW team: please make sure each developer receives a modified board by Wednesday end of day.
+      (this is an implicit direction to a new developer that may show if they are paying attention)
 
-=====================
+    * yadda yadda blahblah   make it easy to dismiss/hightlight the comment if it does not apply
 
- S~S What are the contents of this artifact?
-
-------------------------------------------
-
-  Example: Where Category A describes the directory structure,
-                 Category B maps functionality to source files.
-
-   The example subcategory X is associated with or relevant to both Categories;
-   within that subcategory X reference each Category refers to a different level.
-
-* Category A level 1 synopsis
-  * Category A level 1 subcategory X level 2 item 1.
-  * Category A level 1 subcategory Z level 2 item 2.
-
-* Category B level 1 synopsis
-  * Category B level 1 subcategory Y level 2 item 1.
-  * Category B level 1 subcategory X level 1 item 1.
+    * Curtis said blahblah   make it easy to dismiss/highlight the comment based on the commenter
 
 ------------------------------------------
 

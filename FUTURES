@@ -1,64 +1,23 @@
-------------------------------------------
 
-   This file thinks it is:    FUTURES in the SimpleSal/template-docs repository human metadata.
-
-   The managed object, for TSC LLC repos, is a directory in the repo root (i.e., rr\template-docs\).
-
-------------------------------------------
+   This file thinks it is:  FUTURES in the SimpleSal/<template-docs> repo root
 
 =====================
 
-TruSoft Computing LLC
+    TruSoft Computing LLC
 
- S~S  SimpleSal repository human metadata documents: FUTURES predicted of published content
-
-=====================
-
- S~S  Recalling the purpose of publishing template documents in the first place.
-
-------------------------------------------
-
-    Over Time, while working on a single project, or a set of related or unrelated projects, a
-    developer will migrate the style and content of information towards those with shared knowledge.
-
-    A team of developers, all migrating over Time, are interacting with other consumers inside and
-    the outside the development organization: QA, user document publishers, web page designers, etc.
-
-    This is why the most defined and constrictive work writing requirements are about the metadata.
-
-------------------------------------------
+   S~S  SimpleSal documents: metadata linking external information systems to repo changes
 
 =====================
 
- S~S  Features, fixes, changes on the list of things we'd like to do:
+   S~S  Features, fixes, changes on the list of things we'd like to do:
 
 ------------------------------------------
 
-    * Conform... conform...  To be found by others, you must look like what they are seeking.
+    * The central promise behind publishing template documents is that they will remain the same.
 
-      When software merges into ecosystems such as Arduinio and Linix, local conventions take over.
+    * A development organization considering all of these files seriously will establish standards.
 
-    * the current and future purpose of the SimpleSal ecosystem is to provide
-      an introductory software development example
-      with a moderately complex software implementation.
-
-    * the current and future purpose of the workspace model this repo describes is to provide
-      an introductory software development example
-      with a moderately complex software implementation.
-
-------------------------------------------
-
-=====================
-
- S~S  Issues and conventions that SimpleSal and TSC LLC will not be changing
-
-------------------------------------------
-
-    * The goal of the SimpleSal educational environment is to introduce ideas, so many advanced
-      and cool examples of human and computer metadata possible in modern repos are not included.
-
-      In reality, given SimpleSal is co-existing software compiled with the App, the developer
-      using SimpleSal in their App acts within the development organization paying for the App.
+    * In support of SimpleSal's educational goals, flaws can be appreciated as learning experiences.
 
 ------------------------------------------
 
