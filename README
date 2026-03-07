@@ -5,28 +5,74 @@
 
     TruSoft Computing LLC
 
-   S~S  SimpleSal documents: metadata describing README documents and what will be read by you
+   S~S  SimpleSal documents: metadata describing all of the documents in the template-docs repo
 
 =====================
 
-   S~S This Repository
+   S~S  What is the context that this description exists within?
 
 ------------------------------------------
 
-   S~S  What is the purpose of the objects in this repository?
+   The SimpleSal/workspace-model repository contains a suggestion for the location of files.
 
-    Describe the metadata that TSC LLC software projects use to describe the contents from various views.
+   The template-docs repo's managed object files use the model's vocabulary to describe metadata.
 
+   The workspace model describes the directory structure; the template docs describe the files.
+
+------------------------------------------
+
+   This repo root README is about the template-docs repo managed object files: README/RELEASE/etc.
+
+   * the content is suggested by TSC LLC for descriptions of TSC LLC repositories, in template form.
+
+   * minimal suggestions, ideas, documentation about the use and content of the metadata files.
+
+   SimpleSal is a small boat trying to exist in the middle of the busiest harbors in the world.
+
+   Local rules will always apply.
+
+=====================
+
+  S~S   SimpleSal explains the managed object concept
+
+    TSC LLC's idea of a managed object: anything present in the repo that is NOT human metadata.
+
+    The human metadata and the managed object, together, are what TSC LLC calls the "repo object".
+
+        The repo database MANAGER application or user interface:
+
+            transfers repo objects into and out of the repo database.
+            maintains and shares repo metadata about the repo object.
+
+        The repo database OWNER:
+
+            maintains human metadata files describing the managed object.
+            transfers human metadata and/or managed object content into and out of the repo database.
+            invents conventions to separate the managed object from the metadata.
+
+        The repo database USER:
+
+            understands repo and human metadata well enough to find the correct managed object.
+            transfers managed object content into and out of the repo database.
+            may be a developer who simply copies files when directed or refers to common files,
+                 the source of the version controlled files must be managed for them, by someone.
+
+    Notice that version control systems are just databases of the differences between files.
 
 ------------------------------------------
 
    S~S  What are the contents of this repository?
 
-   * the metadata selected by TSC LLC for use in describing TSC LLC repositories, in template form.
+    TSC LLC's chosen publishing style:
 
-   * extensive suggestions, ideas, documentation about the use and content of the metadata files.
+        1) the repo contains human metadata text files and the managed object as defined here;
 
-   The trick is that the extensive information about metadata is contained within the metadata file.
+        2) the conventions followed for separating the metadata are adopted from GITHUB. and LINUX.;
+
+        3) the managed object is a single subdirectory in the root of the repository.
+
+
+   The trick is that the information about authoring a metadata file is found within a metadata file.
 
 ------------------------------------------
 
@@ -38,7 +84,8 @@
     The only reason to have a copy locally is if these files are being modified for a release.
     Readers still awake will realize the SimpleSal metadata about the directory content will
     match the name and therefore overwrite a conventional software package's local metadata files.
-    This is a disadvantage resulting fro TSC LLC separates the managed object into a subdirectory.
+    This is a disadvantage resulting from TSC LLC separating the managed object into a subdirectory.
+
 ------------------------------------------
 
 =====================

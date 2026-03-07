@@ -19,32 +19,34 @@ TruSoft Computing LLC
 
      branch                 main-template-docs
 
-       label on branch      release-260304
+       label on branch      release-260306
 
- Date of Publishment        March 03, 2026
+ Date of Publishment        March 06, 2026
 
- TSC LLC Version Identifier 260304
+ TSC LLC Version Identifier 260306
 
- Human version Identifier   v1.0a
+ Human version Identifier   v1.0b
 
 ------------------------------------------
 
 =====================
 
-   S~S  Release notes version 260304: publish v1.0a to the public consumer
+   S~S  Release notes version 260306: publish v1.0b to the public consumer
 
 ------------------------------------------
 
-    "template document files" is a collection of documents about the format and content
-    of the human metadata files, as defined by the culture of the SimpleSal organization.
+    Following the publishment of v1.0a as a coherent set of files, updated the README about them.
 
-    In the future, when publishing a SimpleSal App, the task list might include:
+------------------------------------------
 
-        copy the template files into the instance directory containing the managed object
+    This set of files is considered "released" by TSC LLC as static reference documents.  Wow.
 
-        edit the copied versions as recommended by the template files
+    Also: a learning about release/changelog edits.  Previous edits copied the contents of release
+    to the changelog AFTER the release file was edited; convention now is to copy the contents of the
+    release (the previous release) to the changelog BEFORE editing the release file for this release.
 
-        add the edited files to the repository in the repo root
+    This results in the combined content of RELEASE (this) and CHANGELOG (past)
+        telling the story completely without duplication.
 
 ------------------------------------------
 
