@@ -28,11 +28,11 @@
 ------------------------------------------
 
    A proper SimpleSal repo has metadata ABOUT the managed object,
-   including when the managed object is ABOUT metadata.
+   including when the managed object is ABOUT files that contain metadata.
 
-        SimpleSal/template-docs\template-docs\README         template file
+        SimpleSal/template-docs\template-docs\README    template file about TSC LLC README files
 
-        SimpleSal/template-docs\README                       about the template file
+        SimpleSal/template-docs\README          about the template README file in the managed object
 
 ------------------------------------------
 
@@ -98,9 +98,9 @@ TruSoft Computing LLC
 
   A design goal: no modifications to SimpleSal files are needed to modify the behavior or content.
 
-  Modifying an App and SimpleSal at the same time is complex, and also what SimpleSal is made for.
+      The software perceived by the compiler is controlled by the App's ssTEA configuration file.
 
-  Nothing in the repository organization blocks having both checked out at the same time.
+  Modifying an App and SimpleSal at the same time is complex, and also what SimpleSal is made for.
 
   The multi-layer design of the workspace model allows a change that breaks EVERYTHING to be undone.
 
@@ -214,18 +214,15 @@ TruSoft Computing LLC
     * for a non-SimpleSal App:   'the contents are placed into a directory with the name required
                                  by the developer's build; for Arduino, the ".ino" file name.'
 
-    * for a SimpleSal App:       'the contents...", a file named App.ino.'   Same as non-SimpleSal.
+    * for a SimpleSal App:       'the contents..., a file named App.ino.'   Same as non-SimpleSal.
 
-    * for the SimpleSal source:  'the contents..., a directory, goes into the App as rr\App\SimpleSal'
+    * for the SimpleSal source:  'the contents..., a directory, goes into the App as rr\App\SimpleSal\'
+                                  See notes below: advanced local source code version management.
 
   * The SimpleSal and TSC LLC philosophy about organizing software in a workspace over Time
     is related to the principle some call "separation of concerns" in software development:
 
         any version of a SimpleSal App should work with any version of SimpleSal.
-
-    The SimpleSal App references the version of SimpleSal indicated by the software build.
-        This means the include path used by the software build determines where \SimpleSal lives.
-        The SimpleSal model using the Arduino out-of-the-box build environment is \App\SimpleSal.
 
     The contents of the App's directory and the contents of SimpleSal are mutually exclusive.
        The result: App repos have no SimpleSal directory, a SimpleSal repo has no App directory.
@@ -238,18 +235,19 @@ TruSoft Computing LLC
 
   S~S   directory tree structure:
 
-  User space for Arduino is a directory "App" containing the "SimpleSal" directory and "App.ino".
+  User space for Arduino is a directory, "App", containing the "SimpleSal" directory, and "App.ino".
   The Arduino IDE build environment expects a SimpleSal directory to be in each App's directory.
 
-  the "SimpleSal" directory contains all of the software source code needed to use SimpleSal.
+  The \SimpleSal\ directory contains all of the software source code needed to use SimpleSal.
+  Three files in the \SimpleSal\ directory are copied to the App directory and renamed.
 
-  the "ssTEA" subdirectory contains the software implementing Time and Event Agency (TEA).
+      the "ssTEA" subdirectory contains the software implementing Time and Event Agency (TEA).
 
-  the "ssUI" subdirectory contains the menu system that displays Time and Event information.
+      the "ssUI" subdirectory contains the menu system that displays Time and Event information.
 
-  the "ssDocs" subdirectory contains documentation, each file is pointed to by source code files.
+      the "ssDocs" subdirectory contains documentation, each file is pointed to by source code files.
 
-  the "ssIO" subdirectory is independent of ssTEA and implements the virtualization of hardware.
+      the "ssIO" subdirectory is independent of ssTEA and implements the virtualization of hardware.
 
 ------------------------------------------
 
@@ -262,8 +260,29 @@ TruSoft Computing LLC
 ------------------------------------------
 
   C-language source code at a "fundamental Kernighan and Ritchie C level"; also called "K and R C".
+
   C software is implemented to directly translate to processor-level instructions and capabilities.
   SimpleSal is also going to be integrated into other languages and Hosts; we must begin at simple.
+
+  There are experts within each software development ecosystem that know how to reference C software.
+  The author of SimpleSal has no expertise in any of those cultures; you don't want him making dinner.
+
+------------------------------------------
+
+  'advanced local source code version management'
+
+  The SimpleSal App references the version of SimpleSal indicated by the software build.
+
+  The SimpleSal model using the Arduino out-of-the-box build environment is \App\SimpleSal\.
+  This shows the include path used by the software build determines where \SimpleSal\ lives.
+
+  It is common to reach outside the App's narrow workspace and reference software "out there".
+
+  The still-awake reader will realize that a single cloned instance of the SimpleSal/simplesal
+  repo managed object creates a directory at the same level as the \App\ directories.
+
+    This instance of the managed object may be copied to App directories or referenced here.
+    On a resume, the choice made is described as 'advanced local source code version management'.
 
 ------------------------------------------
 
