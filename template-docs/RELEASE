@@ -50,9 +50,11 @@ TruSoft Computing LLC
 
 =====================
 
+    A desriptive title or phrase about the release contents at the highest level
+
 ------------------------------------------ [delete after copying template]
 
-    A description of the content or changes included in THIS VERSION
+    A detailed or summary description of the content or changes included in THIS VERSION
 
             tagged as a coherent collection of files in a repository of:
 
@@ -69,8 +71,6 @@ TruSoft Computing LLC
 ------------------------------------------
 
 =====================
-
-------------------------------------------
 
 SimpleSal software component RELEASE Note Style Guide [delete after copying template]
 
@@ -96,11 +96,11 @@ SimpleSal software component RELEASE Note Style Guide [delete after copying temp
 
 =====================
 
+  S~S Changes to a repository have been published by SimpleSal
+
 ------------------------------------------
 
     [edit: modify the example metadata based on the development culture after copying template]
-
-  S~S Changes to a repository have been published by SimpleSal:
 
      GitHub username            SimpleSal
 
